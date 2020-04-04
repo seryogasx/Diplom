@@ -68,7 +68,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/tmp
+CMAKE_BINARY_DIR = /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,9 +97,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/tmp/CMakeFiles /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/tmp/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/CMakeFiles /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/tmp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,32 +128,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Diplom_Practice1
+# Target rules for targets named Diplom_Practice_1
 
 # Build rule for target.
-Diplom_Practice1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Diplom_Practice1
-.PHONY : Diplom_Practice1
+Diplom_Practice_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Diplom_Practice_1
+.PHONY : Diplom_Practice_1
 
 # fast build rule for target.
-Diplom_Practice1/fast:
-	$(MAKE) -f CMakeFiles/Diplom_Practice1.dir/build.make CMakeFiles/Diplom_Practice1.dir/build
-.PHONY : Diplom_Practice1/fast
+Diplom_Practice_1/fast:
+	$(MAKE) -f CMakeFiles/Diplom_Practice_1.dir/build.make CMakeFiles/Diplom_Practice_1.dir/build
+.PHONY : Diplom_Practice_1/fast
+
+sources/main.o: sources/main.cpp.o
+
+.PHONY : sources/main.o
 
 # target to build an object file
-main.o:
-	$(MAKE) -f CMakeFiles/Diplom_Practice1.dir/build.make CMakeFiles/Diplom_Practice1.dir/main.o
-.PHONY : main.o
+sources/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Diplom_Practice_1.dir/build.make CMakeFiles/Diplom_Practice_1.dir/sources/main.cpp.o
+.PHONY : sources/main.cpp.o
+
+sources/main.i: sources/main.cpp.i
+
+.PHONY : sources/main.i
 
 # target to preprocess a source file
-main.i:
-	$(MAKE) -f CMakeFiles/Diplom_Practice1.dir/build.make CMakeFiles/Diplom_Practice1.dir/main.i
-.PHONY : main.i
+sources/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Diplom_Practice_1.dir/build.make CMakeFiles/Diplom_Practice_1.dir/sources/main.cpp.i
+.PHONY : sources/main.cpp.i
+
+sources/main.s: sources/main.cpp.s
+
+.PHONY : sources/main.s
 
 # target to generate assembly for a file
-main.s:
-	$(MAKE) -f CMakeFiles/Diplom_Practice1.dir/build.make CMakeFiles/Diplom_Practice1.dir/main.s
-.PHONY : main.s
+sources/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Diplom_Practice_1.dir/build.make CMakeFiles/Diplom_Practice_1.dir/sources/main.cpp.s
+.PHONY : sources/main.cpp.s
 
 # Help Target
 help:
@@ -163,10 +175,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Diplom_Practice1"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Diplom_Practice_1"
+	@echo "... sources/main.o"
+	@echo "... sources/main.i"
+	@echo "... sources/main.s"
 .PHONY : help
 
 

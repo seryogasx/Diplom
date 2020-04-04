@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/main.cpp
+/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/sources/main.cpp
 sort_test.hpp
-/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/sort_test.hpp
+/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/sources/sort_test.hpp
 iostream
 -
 
-/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/sort_test.cpp
+/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/sources/sort_test.cpp
 sort_test.hpp
-/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/sort_test.hpp
+/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/sources/sort_test.hpp
 boost/sort/heap_sort/heap_sort.hpp
 -
 boost/sort/spreadsort/integer_sort.hpp
@@ -28,11 +28,11 @@ boost/sort/flat_stable_sort/flat_stable_sort.hpp
 boost/sort/pdqsort/pdqsort.hpp
 -
 
-/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/sort_test.hpp
+/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/sources/sort_test.hpp
 vector
 -
 sort_test.cpp
-/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/sort_test.cpp
+/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/sources/sort_test.cpp
 
 /usr/local/include/boost/config.hpp
 boost/config/user.hpp

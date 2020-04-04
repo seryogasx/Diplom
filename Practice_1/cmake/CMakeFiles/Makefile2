@@ -64,13 +64,13 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/tmp
+CMAKE_BINARY_DIR = /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Diplom_Practice1.dir/all
+all: CMakeFiles/Diplom_Practice_1.dir/all
 
 .PHONY : all
 
@@ -80,36 +80,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Diplom_Practice1.dir/clean
+clean: CMakeFiles/Diplom_Practice_1.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Diplom_Practice1.dir
+# Target rules for target CMakeFiles/Diplom_Practice_1.dir
 
 # All Build rule for target.
-CMakeFiles/Diplom_Practice1.dir/all:
-	$(MAKE) -f CMakeFiles/Diplom_Practice1.dir/build.make CMakeFiles/Diplom_Practice1.dir/depend
-	$(MAKE) -f CMakeFiles/Diplom_Practice1.dir/build.make CMakeFiles/Diplom_Practice1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/tmp/CMakeFiles --progress-num=1,2 "Built target Diplom_Practice1"
-.PHONY : CMakeFiles/Diplom_Practice1.dir/all
+CMakeFiles/Diplom_Practice_1.dir/all:
+	$(MAKE) -f CMakeFiles/Diplom_Practice_1.dir/build.make CMakeFiles/Diplom_Practice_1.dir/depend
+	$(MAKE) -f CMakeFiles/Diplom_Practice_1.dir/build.make CMakeFiles/Diplom_Practice_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/CMakeFiles --progress-num=1,2 "Built target Diplom_Practice_1"
+.PHONY : CMakeFiles/Diplom_Practice_1.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Diplom_Practice1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/tmp/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Diplom_Practice1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/tmp/CMakeFiles 0
-.PHONY : CMakeFiles/Diplom_Practice1.dir/rule
+CMakeFiles/Diplom_Practice_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Diplom_Practice_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/CMakeFiles 0
+.PHONY : CMakeFiles/Diplom_Practice_1.dir/rule
 
 # Convenience name for target.
-Diplom_Practice1: CMakeFiles/Diplom_Practice1.dir/rule
+Diplom_Practice_1: CMakeFiles/Diplom_Practice_1.dir/rule
 
-.PHONY : Diplom_Practice1
+.PHONY : Diplom_Practice_1
 
 # clean rule for target.
-CMakeFiles/Diplom_Practice1.dir/clean:
-	$(MAKE) -f CMakeFiles/Diplom_Practice1.dir/build.make CMakeFiles/Diplom_Practice1.dir/clean
-.PHONY : CMakeFiles/Diplom_Practice1.dir/clean
+CMakeFiles/Diplom_Practice_1.dir/clean:
+	$(MAKE) -f CMakeFiles/Diplom_Practice_1.dir/build.make CMakeFiles/Diplom_Practice_1.dir/clean
+.PHONY : CMakeFiles/Diplom_Practice_1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
