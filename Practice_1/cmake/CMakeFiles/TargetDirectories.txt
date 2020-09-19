@@ -1,3 +1,0 @@
-/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/CMakeFiles/rebuild_cache.dir
-/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/CMakeFiles/edit_cache.dir
-/Users/seryogas/Desktop/src/Diplom/Practice_1/cmake/CMakeFiles/Diplom_Practice_1.dir

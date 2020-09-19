@@ -1,3 +1,0 @@
-/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/src/Diplom/Practice_1/ubuntu/cmake/CMakeFiles/rebuild_cache.dir
-/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/src/Diplom/Practice_1/ubuntu/cmake/CMakeFiles/Diplom_Practice_1.dir
-/home/parallels/Desktop/Parallels Shared Folders/Home/Desktop/src/Diplom/Practice_1/ubuntu/cmake/CMakeFiles/edit_cache.dir
